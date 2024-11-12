@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with: 
            # assets
-         path: '/assets/css/js/'
+         path: '..dnero/assets/'
         
       - name: Deploy to GitHub Pages
         id: deployment
